@@ -1,0 +1,382 @@
+/* Custom CSS */
+
+.btn-info {
+    color: #fff;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.h5, h5 {
+    font-size: 1.25rem;
+}
+
+.font-weight-bold {
+    font-weight: 700!important;
+}
+
+.text-gray-800 {
+    color: #5a5c69!important;
+}
+
+.mb-0, .my-0 {
+    margin-bottom: 0!important;
+}
+.h3, h3 {
+    font-size: 1.45rem;
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #f8f9fc;
+    border-bottom: 1px solid #e3e6f0;
+}
+
+.card-footer {
+    background-color: #f8f9fc;
+    border-bottom: 1px solid #e3e6f0;
+}
+
+.border-left-primary {
+    border-left: .25rem solid #4e73df!important;
+}
+
+.border-left-success {
+    border-left: .25rem solid #1cc88a!important;
+}
+
+.border-left-info {
+    border-left: .25rem solid #36b9cc!important;
+}
+
+.border-left-warning {
+    border-left: .25rem solid #f6c23e!important;
+}
+
+.alert-light {
+    border-color: #e9ecef !important;
+}
+
+.col-form-label {
+    text-align: right;
+}
+
+.text-gray-300 {
+    color: #dddfeb!important;
+}
+
+.text-gray-400 {
+    color: #d1d3e2!important;
+}
+
+.hr-dotted {
+    border: 1px dotted #d0d0d0;
+    border-style: none none dotted; 
+}
+
+.select2-container-multi .select2-choices {
+    margin: -1px 0 0 -13px;
+    padding: 0 5px;
+}
+
+.select2-container-multi .select2-choices .select2-search-choice {
+    margin: 5px 0 3px 5px;
+    line-height: 17px;
+    color: #fff;
+    background-image: none;
+    background-color: #1cc88a;
+    border-color: #1cc88a;
+}
+
+.note-editor.note-frame .note-editing-area .note-editable {
+    font-size: 15px;
+    font-family: inherit;
+}
+
+.img-profile {
+    border: 5px solid #ffffff40;
+}
+
+.datepicker>div {
+    display: block;
+}
+
+.datepicker {
+    font-size: 0.875em;
+}
+
+.nav-tabs >.active {
+    border-top-color: #6cb2eb !important;
+    border-top: 3px solid transparent;
+    margin-bottom: -2px;
+    margin-right: 5px;
+}
+
+.callout.callout-info {
+    border-color: #6cb2eb;
+}
+
+.callout {
+    border-radius: 3px;
+    margin: 0 0 20px 0;
+    padding: 15px 30px 15px 15px;
+    border-left: 5px solid #eee;
+    background-color: #fff;
+}
+
+.card-header {
+    background-color: #fff;
+}
+
+.card-footer {
+    background-color: #fff;
+    border-left: 3px solid #6cb2eb;
+}
+
+.footer {
+    position: relative;
+    background: none repeat scroll 0 0 #ffffff;
+    border-top: 1px solid #e7eaec;
+    padding: 10px 20px;
+    overflow: hidden;
+    text-align: center;
+    color: #555;
+}
+
+/* Timeline */
+.timeline {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    width: 5px;
+    background: #6cb2eb;
+    left: 20%;
+    margin-left: -2.5px
+}
+
+.timeline>li {
+    position: relative;
+    min-height: 50px;
+    padding: 20px 0
+}
+
+.timeline .timeline-time {
+    position: absolute;
+    left: 0;
+    width: 18%;
+    text-align: right;
+    top: 30px;
+}
+
+.timeline .timeline-time .date {
+    display: block;
+    font-weight: 600;
+    line-height: 16px;
+    font-size: 12px;
+}
+
+.timeline .timeline-icon {
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    left: 15%;
+    width: 10%;
+}
+
+.timeline .timeline-icon a {
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    background: #fff;
+    line-height: 10px;
+    color: #fff;
+    font-size: 14px;
+    border: 5px solid #6cb2eb;
+    transition: border-color .2s linear
+}
+
+.timeline .timeline-body {
+    margin-left: 23%;
+    margin-right: 17%;
+    background: #fff;
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 6px
+}
+
+.timeline .timeline-body:before {
+    content: '';
+    display: block;
+    position: absolute;
+    border: 10px solid transparent;
+    border-right-color: #fff;
+    left: -20px;
+    top: 20px
+}
+
+.timeline .timeline-body>div+div {
+    margin-top: 15px
+}
+
+.timeline .timeline-body>div+div:last-child {
+    margin-bottom: -20px;
+    padding-bottom: 20px;
+    border-radius: 0 0 6px 6px
+}
+
+.timeline-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e2e7eb;
+    line-height: 30px
+}
+
+.timeline-header .userimage {
+    float: left;
+    width: 34px;
+    height: 34px;
+    border-radius: 40px;
+    overflow: hidden;
+    margin: -2px 10px -2px 0
+}
+
+.timeline-header .username {
+    font-size: 16px;
+    font-weight: 600
+}
+
+.timeline-header .username,
+.timeline-header .username a {
+    color: #212529
+}
+
+.timeline img {
+    max-width: 100%;
+    display: block
+}
+
+.timeline-content {
+    letter-spacing: .25px;
+    line-height: 18px;
+    font-size: 13px
+}
+
+.timeline-content:after,
+.timeline-content:before {
+    content: '';
+    display: table;
+    clear: both
+}
+
+.lead {
+    color: #212529;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+/* Start Ratings */
+.rating {
+    border: none;
+    float: left;
+}
+
+.rating>input {
+    display: none;
+}
+
+.rating>label:before {
+    margin: 5px;
+    font-size: 1.5em;
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    content: "\f005";
+}
+
+.rating>.half:before {
+    content: "\f089";
+    position: absolute;
+}
+
+.rating>label {
+    color: #ddd;
+    float: right;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating>input:checked~label,
+
+/* show gold star when clicked */
+.rating:not(:checked)>label:hover,
+
+/* hover current star */
+.rating:not(:checked)>label:hover~label {
+    color: #FFD700;
+}
+
+/* hover previous stars in list */
+
+.rating>input:checked+label:hover,
+
+/* hover current star when changing rating */
+.rating>input:checked~label:hover,
+.rating>label:hover~input:checked~label,
+
+/* lighten current selection */
+.rating>input:checked~label:hover~label {
+    color: #FFED85;
+}
+
+/* Avatar */
+.kv-avatar .krajee-default.file-preview-frame,
+.kv-avatar .krajee-default.file-preview-frame:hover {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+}
+
+.kv-avatar {
+    display: inline-block;
+}
+
+.kv-avatar .file-input {
+    display: table-cell;
+    width: 213px;
+}
+
+.kv-reqd {
+    color: red;
+    font-family: monospace;
+    font-weight: normal;
+}
+
+.chart-pie {
+    position: relative;
+    height: 16.5rem;
+    width: 100%;
+}

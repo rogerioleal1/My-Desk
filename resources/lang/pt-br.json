@@ -1,0 +1,35 @@
+{
+    "Title": "SupportDesk",
+    "Login": "Fazer Login",
+    "Logout": "Sair do Sistema",
+    "Register": "Registrar-se",
+    "E-Mail Address": "E-mail",
+    "Password": "Senha",
+    "Remember Me": "Lembrar minha senha",
+    "Forgot Your Password?": "Esqueceu sua senha?",
+    "Reset Password": "Redefinir senha",
+    "Confirm Password": "Confirmar senha",
+    "Send Password Reset Link": "Enviar link de redefinição de senha",
+
+    "Go Home": "Ir Para Página Inicial",
+    "Page Not Found": "Página Não Encontrada",
+    "Sorry, the page you are looking for could not be found.": "Desculpe, a página que você está procurando não foi encontrada.",
+
+    "Unauthorized": "Não Autorizado",
+    "Sorry, you are not authorized to access this page.": "Desculpe, você não está autorizado a acessar esta página.",
+
+    "Forbidden": "Acesso Negado",
+    "Sorry, you are forbidden from accessing this page.": "Desculpe, acesso negado à esta página.",
+
+    "Page Expired": "Página Expirada",
+    "Sorry, your session has expired. Please refresh and try again.": "Desculpe, sua sessão expirou. Por favor, atualize e tente novamente.",
+
+    "Too Many Requests": "Muitas Solicitações",
+    "Sorry, you are making too many requests to our servers.": "Desculpe, você está fazendo muitas requisições para nossos servidores.",
+
+    "Error": "Erro Encontrado",
+    "Whoops, something went wrong on our servers.": "Oops, foram encontrados erros em nossos servidores.",
+
+    "Service Unavailable": "Serviço Indisponível",
+    "Sorry, we are doing some maintenance. Please check back soon.": "Desculpe, nossos serviços estão em manutenção. Retornaremos em breve."
+}

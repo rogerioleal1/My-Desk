@@ -1,0 +1,43 @@
+/* Login CSS */
+
+.back-image {
+    background: url(../images/bg-login.jpg) center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.logo-login {
+    padding: 25px;
+    text-align: center;
+}
+
+.login-box, .password-box, .register-box {
+    margin-top: 5%;
+}
+
+.login-card {
+    opacity: .9;
+    border: 1px solid #d0d0d090;
+}
+
+.footer {
+    background: none repeat scroll 0 0 #ffffff;
+    border-top: 1px solid #e7eaec;
+    bottom: 0;
+    left: 0;
+    padding: 10px 20px;
+    right: 0;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    color: #555;
+    opacity: .9;
+}
+
+.pull-right {
+    float: right;
+}
